@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+p {
+	/* font-weight:bolder; */
+	/* font:font-famliy:黑体;font-style:italic;color: red; */
+	font-weight:100;
+	font-size:50px;
+	font-variant:small-caps;
+	font-family: 黑体;
+	font-style: italic;
+	font-style: oblique;
+	text-transform: lowercase;
+	text-decoration: underline;
+	}

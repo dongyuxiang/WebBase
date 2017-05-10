@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="javascript.js" type="text/javascript"></script>
+<!-- <script type="text/javascript">
+var len=navigator.plugins.length;
+with(document){//静态导入
+	write("你的浏览器共支持"+len+"中外挂插件：<br/>");
+	write("<TABLe border=1 bordercolor=blue>");
+	write("<CAPTION>外挂清单</CAPTION>");
+	write("<tr><th>编号  <th>名称<th><描述> <th> 文件名")//tr表示第一行，每个th后面的文字表示每列的表头名称
+	for(var i=0;i<len;i++){
+		write("<tr><td>"+i+				//每次打印一行    <td>代表每一列，逐一打出每一列
+		"<td>"+navigator.plugins[i].name+
+		"<td>"+navigator.plugins[i].description+
+		"<td>"+navigator.plugins[i].filename);
+	}
+} -->
+</script>
+</head>
+<body>
+	<input type="button" value="plugins表单" onclick="Demo1()">
+	<input type="button" value="Screen" onclick="Demo2()">
+	<input type="button" value="windows" onclick="Demo3()">
+	<input type="button" value="连接到百度" onclick="location.href='http://www.baidu.com'" />
+	<input type="button" value="刷新网页" onclick="location.reload()" />
+	<input type="button" value="替换网页" onclick="location.replace('http://nba.tmiaoo.com/nba.html')"/>
+</body>
+</html>

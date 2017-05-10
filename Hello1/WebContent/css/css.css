@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+h1 {
+	color: red;
+	background: green;
+	font-size: 50px font-family:黑体;
+}
+
+p {
+	color: red;
+	font-size: 50px;
+	background: green;
+	font-family: 黑体;
+	background: green;
+}
+p, i {
+	color: green
+}
+.pp{
+	color: black;
+	font-size: 50px;
+	background: green;
+	font-family: 黑体;
+	background: green;
+}
+h1.pt{
+	color:black;
+	font-size: 50px;
+	background: green;
+	font-family: 黑体;
+	background: green;
+}
+#dd{
+	color:black;
+	font-size: 50px;
+	background: green;
+	font-family: 黑体;
+}
+cls_ipt{
+		color: blue;
+	background: yellow;
+	font-size: 25px;
+	font-family: 隶书
+}

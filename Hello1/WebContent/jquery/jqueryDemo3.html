@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jQuery v1.10.2.js"></script>
+<script type="text/javascript" src="jqueryDemo3.js"></script>
+</head>
+<body>
+	<form id="my_form">
+		<input type="text" /> <input type="radio" /> <input type="radio"
+			checked="checked" /> <input type="checkbox" /> <input
+			type="checkbox" checked="checked" />
+	</form>
+	<input type="button" value="my_select" onclick="my_formSelect()" />
+	<br />
+	<select id="sel" multiple="multiple">
+		<option value="0">苹果</option>
+		<option value="1" selected="selected">桔子</option>
+		<option value="2">荔枝</option>
+		<option value="3" selected="selected">葡萄</option>
+		<option value="4">香蕉</option>
+	</select>
+	<input type="button" value="selselect" onclick="selSelect()" />
+	<br>
+	<hr />
+	<form id="myform" action="foo.php"></form>
+	<input type="button" value="attrdemo" onclick="attrDemo()" />
+	<!-- 	<img src="../images/特兰克斯.jpg" /> -->
+	<!-- 	<input type="button" value="删除属性" onclick="removeattrDemo()"> -->
+	<hr />
+	<p style="color: purple;">
+		<b>Hello</b>
+	</p>
+	<input type="button" value="htmlTextDemo" onclick="htmlTextDemo()">
+	<input type="button" value="cssDemo" onclick="cssDemo()">
+	<br>
+	<hr />
+	<p id="p1" class="foo bar">你好 世界</p>
+	<input type="button" value="classadd" onclick="classAdd()" />
+	<input type="button" value="appendDemo" onclick="appendDemo()" />
+	<p id="p2">hello world</p>
+	<br>
+	<input type="button" value="afterbeforedDemo"
+		onclick="afterbeforeDemo()" />
+	<input type="button" value="cloneDemo" onclick="clone()" />
+	<p id="p3">hello world</p>
+	<br>
+	<input type="button" value="replacewithDemo"
+		onclick="replacewithDemo()" />
+	<input type="button" value="wrapDemo" onclick="wrapwrapinnerDemo()" />
+	<div id="div3">
+		<ul>
+			<li class="fruit">Apple</li>
+			<li>Tomato</li>
+			<li class="fruit">Banana</li>
+			<li>Potato</li>
+		</ul>
+	</div>
+	<input type="button" value="removeDemo" onclick="removeDemo()">
+	<input type="button" value="emptyDemo" onclick="emptyDemo()">
+
+
+</body>
+</html>
